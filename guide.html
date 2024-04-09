@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Bootstrap4</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+
+    <!-- Optional theme -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+      integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+      crossorigin="anonymous"
+    />
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand">ITProger</a>
+        </div>
+        <div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <h1>First level heading<small> - Small text</small></h1>
+    <h2>Second level heading<small> - Small text</small></h2>
+    <h3>Third level header<small> - Small text</small></h3>
+    <p>
+      Lorem ipsum dolor, sit amet <mark>consectetur adipisicing</mark>elit. A?
+    </p>
+    <p class="text-left">Location on the left edge</p>
+    <p class="text-center">Center the text</p>
+    <p class="text-right">Location on the right edge</p>
+    <p class="text-justify">Location on both edges</p>
+    <p class="text-nowrap">Text without hyphens</p>
+    <blockquote>
+      Very clever quote
+      <footer>Steve Jopes</footer>
+    </blockquote>
+    <blockquote class="blockquote-reverse">
+      Very clever quote
+      <footer>Steve Jopes</footer>
+    </blockquote>
+
+    <p class="text-uppercase">uppercase</p>
+    <p class="text-lowercase">LOWERCASE</p>
+    <p class="text-capitalize">capitalize</p>
+
+    <code>for</code>, <code>while</code>, <code>do while</code>
+
+    <pre class="container">
+        for (int i = 0; i < 10; i++)
+            print ("hi!")
+    </pre>
+    <div class="table-responsive">
+      <table
+        class="table table-striped table-hover table-bordered table-condensed"
+      >
+        <thead>
+          <tr class="active">
+            <th>Name</th>
+            <th>Phone number</th>
+            <th>Post Office</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="warning">Oleksandr</td>
+            <td class="info">+38 067 000 00 00</td>
+            <td class="success">oleksandr@gmail.com</td>
+          </tr>
+          <tr>
+            <td class="danger">Oleksandr</td>
+            <td>+38 067 000 00 00</td>
+            <td>oleksandr@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Oleksandr</td>
+            <td>+38 067 000 00 00</td>
+            <td>oleksandr@gmail.com</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="example container-fluid">
+      <h1>Grid-system 1</h1>
+      <div class="row">
+        <div class="col-md-4" style="background-color: #ff9999">Left</div>
+        <div class="col-md-4" style="background-color: #99ccff">Middle</div>
+        <div class="col-md-4" style="background-color: #00cc99">Right</div>
+      </div>
+      <h1>Grid-system 4</h1>
+      <div class="row">
+        <div
+          class="col-xs-12 col-sm-9 col-md-4 col-lg-6"
+          style="background-color: #ff9999"
+        >
+          first
+        </div>
+        <div
+          class="col-xs-12 col-sm-3 col-md-8 col-lg-6"
+          style="background-color: #99ccff"
+        >
+          second
+        </div>
+      </div>
+      <h1>Grid-system (push & pull)</h1>
+      <div class="row">
+        <div class="col-lg-5 col-lg-push-7" style="background-color: #ff9999">
+          first
+        </div>
+        <div class="col-lg-7 col-lg-pull-5" style="background-color: #99ccff">
+          second
+        </div>
+      </div>
+      <h1>Grid-system2 (push & pull)</h1>
+      <div class="row">
+        <div class="col-lg-5 col-lg-push-7" style="background-color: #ff9999">
+          <div class="row">
+            <div class="col-lg-6" style="background-color: #ff9999">first</div>
+            <div class="col-lg-6" style="background-color: #99ccff">second</div>
+          </div>
+        </div>
+        <div class="col-lg-7 col-lg-pull-5" style="background-color: #99ccff">
+          second
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
