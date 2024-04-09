@@ -1,8 +1,8 @@
-# html
+# bootstrap-4
 
-https://www.youtube.com/watch?v=NhFwkvLexh4&t=4s
-https://itproger.com/ua/course/bootstrap-4
-https://itproger.com/ua/courses/
-https://getbootstrap.com/
+[Lesson on YouTube](https://www.youtube.com/watch?v=NhFwkvLexh4&t=4s)
+[The lesson is on the website](https://itproger.com/ua/course/bootstrap-4)
+[Website with training courses](https://itproger.com/ua/courses/)
+[Official website bootstrap](https://getbootstrap.com/)
 
 
