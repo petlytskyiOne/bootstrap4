@@ -90,3 +90,17 @@ html {
     font-size: 4em;
     margin: 1em;
 }
+
+#fixed {
+    height: 400px;
+    border-top: 4px solid #f0f0f0;
+    border-bottom: 4px solid #f0f0f0;
+    background: url("/img/old-rusty-car-that-has-license-plate-number-728_900101-12536.avif") no-repeat center center fixed;
+    background-blend-mode: multiply;
+    background-color: lightblue;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+}
